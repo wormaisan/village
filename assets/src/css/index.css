@@ -2255,7 +2255,7 @@ button:not(.cursor) {
   }
   .sendForm__rules {
     font-size: 12px;
-    line-height: 12, 16;
+    line-height: 1.33;
   }
   .headFoot__body {
     margin: -10px;
