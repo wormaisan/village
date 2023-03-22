@@ -94,14 +94,14 @@
 
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url(/assets/src/lib/slick/ajax-loader.gif) center center no-repeat;
+  background: #fff url(../lib/slick/ajax-loader.gif) center center no-repeat;
 }
 
 /* Icons */
 @font-face {
   font-family: "slick";
-  src: url(/assets/src/lib/slick/fonts/slick.eot);
-  src: url(/assets/src/lib/slick/fonts/slick.eot?#iefix) format("embedded-opentype"), url(/assets/src/lib/slick/fonts/slick.woff) format("woff"), url(/assets/src/lib/slick/fonts/slick.ttf) format("truetype"), url(/assets/src/lib/slick/fonts/slick.svg#slick) format("svg");
+  src: url(../lib/slick/fonts/slick.eot);
+  src: url(../lib/slick/fonts/slick.eot?#iefix) format("embedded-opentype"), url(../lib/slick/fonts/slick.woff) format("woff"), url(../lib/slick/fonts/slick.ttf) format("truetype"), url(../lib/slick/fonts/slick.svg#slick) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -249,28 +249,28 @@
   font-family: "Neumann";
   font-style: normal;
   font-weight: 400;
-  src: url(/assets/src/fonts/Neumann.woff2) format("woff2"), url(/assets/src/fonts/Neumann.woff) format("woff"), url(/assets/src/fonts/Neumann.ttf) format("truetype"); /* Safari, Android, iOS */
+  src: url(../fonts/Neumann.woff2) format("woff2"), url(../fonts/Neumann.woff) format("woff"), url(../fonts/Neumann.ttf) format("truetype"); /* Safari, Android, iOS */
 }
 @font-face {
   font-display: swap;
   font-family: "MuseoSansCyrl";
   font-style: normal;
   font-weight: 300;
-  src: url(/assets/src/fonts/MuseoSansCyrl300.woff) format("woff"), url(/assets/src/fonts/MuseoSansCyrl300.ttf) format("truetype"); /* Safari, Android, iOS */
+  src: url(../fonts/MuseoSansCyrl300.woff) format("woff"), url(../fonts/MuseoSansCyrl300.ttf) format("truetype"); /* Safari, Android, iOS */
 }
 @font-face {
   font-display: swap;
   font-family: "MuseoSansCyrl";
   font-style: normal;
   font-weight: 500;
-  src: url(/assets/src/fonts/MuseoSansCyrl500.woff) format("woff"), url(/assets/src/fonts/MuseoSansCyrl500.ttf) format("truetype"); /* Safari, Android, iOS */
+  src: url(../fonts/MuseoSansCyrl500.woff) format("woff"), url(../fonts/MuseoSansCyrl500.ttf) format("truetype"); /* Safari, Android, iOS */
 }
 @font-face {
   font-display: swap;
   font-family: "MuseoSansCyrl";
   font-style: normal;
   font-weight: 700;
-  src: url(/assets/src/fonts/MuseoSansCyrl700.woff) format("woff"), url(/assets/src/fonts/MuseoSansCyrl700.ttf) format("truetype"); /* Safari, Android, iOS */
+  src: url(../fonts/MuseoSansCyrl700.woff) format("woff"), url(../fonts/MuseoSansCyrl700.ttf) format("truetype"); /* Safari, Android, iOS */
 }
 .wrapper {
   color: #28292E;
@@ -611,7 +611,7 @@ button:not(.cursor) {
   position: absolute;
 }
 .slider__btns button {
-  background: url(/assets/src/img/common/arrow.svg) no-repeat center, #007aff;
+  background: url(../img/common/arrow.svg) no-repeat center, #007aff;
   border: none;
   border-radius: 50%;
   display: inline-block;
@@ -625,7 +625,7 @@ button:not(.cursor) {
   opacity: 0.3;
 }
 .slider__btns button:hover, .slider__btns button:focus {
-  background: url(/assets/src/img/common/arrow.svg) no-repeat center, #007aff;
+  background: url(../img/common/arrow.svg) no-repeat center, #007aff;
 }
 .slider__btns button:first-child {
   left: 0;
@@ -749,7 +749,7 @@ button:not(.cursor) {
 }
 
 .welcome {
-  background: url(/assets/src/img/welcome/bg.jpg) no-repeat center/cover;
+  background: url(../img/welcome/bg.jpg) no-repeat center/cover;
   padding-top: 200px;
   position: relative;
 }
@@ -1087,7 +1087,7 @@ button:not(.cursor) {
   padding: 140px 0 135px;
 }
 .gallery__item:nth-child(1) .gallery__itemBg {
-  background: url(/assets/src/img/gallery/bg1.jpg) no-repeat center/cover;
+  background: url(../img/gallery/bg1.jpg) no-repeat center/cover;
   left: 0;
 }
 .gallery__item:nth-child(1) .gallery__content {
@@ -1100,7 +1100,7 @@ button:not(.cursor) {
   padding: 80px 0;
 }
 .gallery__item:nth-child(2) .gallery__itemBg {
-  background: url(/assets/src/img/gallery/bg2.jpg) no-repeat center/cover;
+  background: url(../img/gallery/bg2.jpg) no-repeat center/cover;
   right: 0;
 }
 .gallery__item:nth-child(2) .gallery__content {
@@ -1267,7 +1267,7 @@ button:not(.cursor) {
 }
 
 .photo {
-  background: url(/assets/src/img/photo/bg.jpg) no-repeat center/cover;
+  background: url(../img/photo/bg.jpg) no-repeat center/cover;
   padding: 120px 0;
 }
 
@@ -1829,13 +1829,13 @@ button:not(.cursor) {
   left: 35px;
 }
 .select .slick-prev::before {
-  background: url(/assets/src/img/select/arrowL.png) no-repeat center/contain;
+  background: url(../img/select/arrowL.png) no-repeat center/contain;
 }
 .select .slick-next {
   right: 35px;
 }
 .select .slick-next::before {
-  background: url(/assets/src/img/select/arrowR.png) no-repeat center/contain;
+  background: url(../img/select/arrowR.png) no-repeat center/contain;
 }
 
 .select__header {
@@ -1951,7 +1951,7 @@ button:not(.cursor) {
 }
 
 .see {
-  background: url(/assets/src/img/see/bg.jpg) no-repeat center/cover;
+  background: url(../img/see/bg.jpg) no-repeat center/cover;
   padding: 100px 0;
   position: relative;
 }
